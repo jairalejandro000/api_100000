@@ -15,7 +15,7 @@ const Factory = use('Factory')
 
 class PersonaSeeder {
   async run () {
-    const personasArray = await Factory.model("App/Models/Persona").createMany(100000);
+    const personasArray = await Factory.model("App/Models/Persona").createMany(99990);
   }
 }
 

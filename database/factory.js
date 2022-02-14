@@ -19,8 +19,7 @@
      apodo: faker.username(),
      nombre: faker.name(),
      edad: faker.age(),
-     direccion: faker.address(),
-     numero: faker.integer()
+     direccion: faker.address()
    }
  })
  Factory.blueprint('App/Models/Alumno', (faker) => {
@@ -28,7 +27,5 @@
       nombre: faker.name(),
       matricula: faker.string(),
       edad: faker.age(),
-      grupo: faker.integer(),
-      seccion: faker.string()
     }
   })

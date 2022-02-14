@@ -15,7 +15,7 @@ const Factory = use('Factory')
 
 class AlumnoSeeder {
   async run () {
-    const alumnosArray = await Factory.model("App/Models/Alumno").createMany(100000);
+    const alumnosArray = await Factory.model("App/Models/Alumno").createMany(99990);
   }
 }
 
